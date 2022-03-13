@@ -1,5 +1,11 @@
 :root {
   box-sizing: border-box;
+
+  --clr-neutral-800: #2e323f;
+  --clr-neutral-700: #3b4050;
+  --clr-neutral-500: #6f737f;
+  --clr-neutral-100: #ffffff;
+  --clr-accent-400: #a59678;
 }
 
 *,
