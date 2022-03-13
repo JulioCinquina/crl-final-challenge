@@ -46,6 +46,32 @@ h3 {
   color: var(--clr-accent-400);
 }
 
+/* === FONT SIZES === */
+
+.fs-regular {
+  font-size: 1rem;
+}
+
+.fs-regular-plus {
+  font-size: 1.125rem;
+}
+
+.fs-medium {
+  font-size: 1.3125rem;
+}
+
+.fs-medium-plus {
+  font-size: 1.5rem;
+}
+
+.fs-big {
+  font-size: 1.875rem;
+}
+
+.fs-big-plus {
+  font-size: 2.25rem;
+}
+
 /* === BACKGROUND COLORS === */
 .bg-neutral-800 {
   background-color: var(--clr-neutral-800);
@@ -87,7 +113,7 @@ h3 {
   border-radius: 1.5rem;
 }
 
-.section-two__title {
+.section-title {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 1.875rem;
