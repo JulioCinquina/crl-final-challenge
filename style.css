@@ -24,7 +24,9 @@ body {
   margin: 0;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   margin-top: 0;
 }
 
@@ -83,4 +85,17 @@ h1 {
   padding: 0.25em 1.5em;
 
   border-radius: 1.5rem;
+}
+
+.section-two__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 1.875rem;
+  color: var(--clr-accent-400);
+}
+
+.section-two__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  color: var(--clr-neutral-700);
 }
