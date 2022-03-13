@@ -116,12 +116,10 @@ h3 {
 .section-title {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
-  font-size: 1.875rem;
   color: var(--clr-accent-400);
 }
 
-.section-two__text {
+.section-text {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
   color: var(--clr-neutral-700);
 }
