@@ -20,6 +20,14 @@ font-family: 'Oswald', sans-serif;
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
 /* === FONT COLORS === */
 .clr-neutral-700 {
   color: var(--clr-neutral-700);
