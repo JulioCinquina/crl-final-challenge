@@ -9,6 +9,10 @@ font-family: 'Oswald', sans-serif;
   --clr-neutral-800: #2e323f;
   --clr-neutral-700: #3b4050;
   --clr-neutral-500: #6f737f;
+  /* Maybe clr-neutral-500 should be 600
+  clr-neutral-500 would be clr-neutral 400
+  and clr-neutral 400 would be the color of main navbar items */
+  --clr-neutral-400: #b2b5bd;
   --clr-neutral-200: #f1f1f1;
   --clr-neutral-100: #ffffff;
   --clr-accent-400: #a59678;
@@ -40,6 +44,10 @@ img {
 }
 .clr-neutral-500 {
   color: var(--clr-neutral-500) !important;
+}
+
+.clr-neutral-400 {
+  color: var(--clr-neutral-400) !important;
 }
 
 .clr-neutral-100 {
