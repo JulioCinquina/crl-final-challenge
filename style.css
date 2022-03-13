@@ -30,6 +30,10 @@ h3 {
   margin-top: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* === FONT COLORS === */
 .clr-neutral-700 {
   color: var(--clr-neutral-700);
