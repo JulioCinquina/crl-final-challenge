@@ -36,18 +36,18 @@ img {
 
 /* === FONT COLORS === */
 .clr-neutral-700 {
-  color: var(--clr-neutral-700);
+  color: var(--clr-neutral-700) !important;
 }
 .clr-neutral-500 {
-  color: var(--clr-neutral-500);
+  color: var(--clr-neutral-500) !important;
 }
 
 .clr-neutral-100 {
-  color: var(--clr-neutral-100);
+  color: var(--clr-neutral-100) !important;
 }
 
 .clr-accent-400 {
-  color: var(--clr-accent-400);
+  color: var(--clr-accent-400) !important;
 }
 
 /* === FONT SIZES === */
