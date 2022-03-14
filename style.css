@@ -105,6 +105,10 @@ img {
   margin: 0 auto;
 }
 
+.txt-center {
+  text-align: center;
+}
+
 /* Navigation Bar */
 
 .nav-list {
