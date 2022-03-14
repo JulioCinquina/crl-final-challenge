@@ -152,14 +152,11 @@ header {
   font-size: 4.5rem;
   line-height: 1.1;
   color: var(--clr-neutral-100);
+  text-align: center;
 }
 
 .hero__content {
   font-size: 1.5rem;
-}
-
-.hero__title {
-  text-align: center;
 }
 
 .hero__text {
