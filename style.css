@@ -109,6 +109,14 @@ img {
   text-align: center;
 }
 
+/* .col is a column in larger screens,
+when items are side-by-side, and a row in
+smaller screens, when items are stacked. */
+
+.col + .col {
+  margin-top: 2rem;
+}
+
 /* Navigation Bar */
 
 .nav-list {
@@ -179,7 +187,7 @@ footer {
   padding: 5rem 0;
 }
 
-.boxes {
+.section-three__boxes {
   margin-top: 5rem;
 }
 
@@ -197,3 +205,11 @@ footer {
   font-family: "Montserrat", sans-serif;
   color: var(--clr-neutral-700);
 }
+
+/* TBD in media queries for larger screens:
+- uncenter hero section content
+- remove margin-top from section-three__boxes when they are to the side
+- remove margin-top from .col + .col. Since
+they will be flex-items in larger screens,
+use gap instead.
+*/
