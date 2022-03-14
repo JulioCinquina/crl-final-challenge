@@ -119,6 +119,10 @@ smaller screens, when items are stacked. */
 
 /* Navigation Bar */
 
+header {
+  padding: 1rem 0;
+}
+
 .nav-list {
   list-style-type: none;
   padding: 0;
