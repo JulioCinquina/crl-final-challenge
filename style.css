@@ -144,7 +144,9 @@ smaller screens, when items are stacked. */
 .hero__title {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
-  font-size: 5.625rem;
+  /* font-size: 5.625rem; */
+  font-size: 4.5rem;
+  line-height: 1.1;
   color: var(--clr-neutral-100);
 }
 
