@@ -103,10 +103,17 @@ img {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
 
+.nav-list--primary {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
+}
+
+.nav-list--secondary {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
 }
 
 .nav-link {
