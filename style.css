@@ -140,9 +140,18 @@ img {
   font-size: 1.5rem;
 }
 
+.hero__title {
+  text-align: center;
+}
+
 .hero__text {
   font-family: "Montserrat", sans-serif;
   color: var(--clr-neutral-100);
+  text-align: center;
+}
+
+.hero__btn {
+  text-align: center;
 }
 
 .btn {
