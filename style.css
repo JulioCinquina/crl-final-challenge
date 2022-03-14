@@ -111,7 +111,7 @@ img {
 
 .nav-link {
   text-decoration: none;
-  color: var(--clr-neutral-400);
+  color: inherit;
 }
 
 .hero__title {
