@@ -174,12 +174,17 @@ img {
   border-radius: 1.5em;
 }
 
-section {
+section,
+footer {
   padding: 5rem 0;
 }
 
 .boxes {
   margin-top: 5rem;
+}
+
+.box {
+  padding: 3rem;
 }
 
 .section-title {
