@@ -125,6 +125,10 @@ smaller screens, when items are stacked. */
 }
 
 .header-flex {
+  /* This organizes the layout of the header:
+  Logo and menu button in opposite sites of 1st row, 
+  and the navigation menu in the 2nd row (when toggled). */
+
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -133,29 +137,36 @@ smaller screens, when items are stacked. */
 }
 
 .toggle-menu {
+  /* Invisible checkbox that toggles the menu */
   position: absolute;
   transform: scale(2.1);
   opacity: 0;
   top: 7px;
   right: 0;
+  cursor: pointer;
 }
 
 .toggle-menu:checked ~ .menu-icon {
+  /* When checked, change the color of the menu icon */
   color: var(--clr-accent-400) !important;
 }
 
-.toggle-menu:focus ~ .menu-icon,
 .toggle-menu:focus-visible ~ .menu-icon {
+  /* When the checkbox receives focus via the tab key,
+  give an outline to the menu icon */
   outline: 3px solid var(--clr-accent-400);
 }
 
 .toggle-menu:checked ~ .nav-primary {
+  /* When checked, display navigation menu */
   height: auto;
   width: auto;
   display: unset;
 }
 
 .nav-primary {
+  /* The primary navigation menu is hidden by default on small screens;
+  it is shown when the menu button (invisible checkbox) is toggled. */
   height: 0;
   width: 0;
   display: none;
