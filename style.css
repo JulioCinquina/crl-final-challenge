@@ -186,7 +186,7 @@ smaller screens, when items are stacked. */
   font-size: 1.125rem;
 }
 
-.nav-list--primary .nav-link {
+.nav-link {
   display: block;
 }
 
@@ -268,10 +268,19 @@ footer {
   color: var(--clr-neutral-700);
 }
 
+.footer__section {
+  text-align: center;
+}
+
+.footer__section + .footer__section {
+  margin-top: 1.25rem;
+}
+
 /* TBD in media queries for larger screens:
 - uncenter hero section content
 - remove margin-top from section-three__boxes when they are to the side
 - remove margin-top from .col + .col. Since
 they will be flex-items in larger screens,
 use gap instead.
+- Show primary navigation horizontally and remove menu icon
 */
