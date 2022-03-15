@@ -212,6 +212,7 @@ smaller screens, when items are stacked. */
   line-height: 1.1;
   color: var(--clr-neutral-100);
   text-align: center;
+  margin: 0;
 }
 
 .hero__content {
@@ -222,6 +223,8 @@ smaller screens, when items are stacked. */
   font-family: "Montserrat", sans-serif;
   color: var(--clr-neutral-100);
   text-align: center;
+  margin: 0;
+  padding: 2em 0;
 }
 
 .hero__btn {
@@ -246,7 +249,7 @@ smaller screens, when items are stacked. */
 
 section,
 footer {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .section-three__boxes {
@@ -283,4 +286,5 @@ footer {
 they will be flex-items in larger screens,
 use gap instead.
 - Show primary navigation horizontally and remove menu icon
+- uncenter footer, show sections horizontally
 */
