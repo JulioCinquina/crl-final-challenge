@@ -186,10 +186,6 @@ smaller screens, when items are stacked. */
   font-size: 1.125rem;
 }
 
-.nav-link {
-  display: block;
-}
-
 .nav-list--secondary {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
@@ -200,8 +196,13 @@ smaller screens, when items are stacked. */
 }
 
 .nav-link {
+  display: block;
   text-decoration: none;
   color: inherit;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
 
 .hero__title {
@@ -247,6 +248,10 @@ smaller screens, when items are stacked. */
   border-radius: 1.5em;
 }
 
+.btn:hover {
+  transform: scale(1.1);
+}
+
 section,
 footer {
   padding: 3rem 0;
@@ -280,6 +285,7 @@ footer {
 }
 
 /* TBD in media queries for larger screens:
+- decrease container width to 80%
 - uncenter hero section content
 - remove margin-top from section-three__boxes when they are to the side
 - remove margin-top from .col + .col. Since
