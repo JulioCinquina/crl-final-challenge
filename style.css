@@ -123,6 +123,31 @@ header {
   padding: 1rem 0;
 }
 
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  position: relative;
+}
+
+.toggle-menu {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+.toggle-menu:checked + .menu-icon {
+  color: var(--clr-accent-400) !important;
+}
+
+.toggle-menu:focus + .menu-icon,
+.toggle-menu:focus-visible + .menu-icon {
+  outline: 3px solid var(--clr-accent-400);
+}
+
 .nav-list {
   list-style-type: none;
   padding: 0;
@@ -133,11 +158,17 @@ header {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
+  display: none;
+  position: absolute;
 }
 
 .nav-list--secondary {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
+}
+
+.nav-item + .nav-item {
+  margin-top: 1rem;
 }
 
 .nav-link {
