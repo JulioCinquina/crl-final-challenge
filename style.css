@@ -119,33 +119,48 @@ smaller screens, when items are stacked. */
 
 /* Navigation Bar */
 
-header {
+.header {
   padding: 1rem 0;
+  overflow: hidden;
 }
 
 .header-flex {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-}
-
-label {
   position: relative;
 }
 
 .toggle-menu {
   position: absolute;
-  transform: scale(2);
+  transform: scale(2.1);
   opacity: 0;
+  top: 7px;
+  right: 0;
 }
 
-.toggle-menu:checked + .menu-icon {
+.toggle-menu:checked ~ .menu-icon {
   color: var(--clr-accent-400) !important;
 }
 
-.toggle-menu:focus + .menu-icon,
-.toggle-menu:focus-visible + .menu-icon {
+.toggle-menu:focus ~ .menu-icon,
+.toggle-menu:focus-visible ~ .menu-icon {
   outline: 3px solid var(--clr-accent-400);
+}
+
+.toggle-menu:checked ~ .nav-primary {
+  height: auto;
+  width: auto;
+  display: unset;
+}
+
+.nav-primary {
+  height: 0;
+  width: 0;
+  display: none;
+  flex-basis: 100%;
+  text-align: center;
 }
 
 .nav-list {
@@ -158,8 +173,10 @@ label {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
-  display: none;
-  position: absolute;
+}
+
+.nav-list--primary .nav-link {
+  display: block;
 }
 
 .nav-list--secondary {
