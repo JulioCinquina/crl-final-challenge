@@ -206,6 +206,9 @@ footer {
   /* When checked, display navigation menu */
   height: auto;
   width: auto;
+  overflow: visible;
+  /* overflow: visible is required to not hide parts of the button
+  when it scales up on hover */
 }
 
 /* === // === */
@@ -217,7 +220,6 @@ footer {
   width: 0;
   overflow: hidden;
   flex-basis: 100%;
-  text-align: center;
 }
 
 .nav-list {
@@ -233,6 +235,7 @@ footer {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
+  align-items: center;
 }
 
 /* === Secondary Navigation at the Footer === */
@@ -347,10 +350,6 @@ footer {
     Media Queries
     =============  */
 
-/* TBD in media queries for larger screens:
-- Show primary navigation horizontally and remove menu icon
-*/
-
 @media screen and (min-width: 700px) {
   .container {
     width: 90%;
@@ -363,7 +362,15 @@ footer {
   .nav-primary {
     height: auto;
     width: auto;
+    overflow: visible;
     flex-basis: unset;
+    /* See comment about overflow: visible in 
+    ".toggle-menu:checked ~ .nav-primary" rule. */
+  }
+
+  .nav-list--primary {
+    flex-flow: row wrap;
+    gap: 3rem;
   }
 
   .hero {
