@@ -40,6 +40,11 @@ img {
   max-width: 100%;
 }
 
+section,
+footer {
+  padding: 3rem 0;
+}
+
 /* === FONT COLORS === */
 .clr-neutral-700 {
   color: var(--clr-neutral-700) !important;
@@ -202,6 +207,11 @@ img {
   text-decoration: underline;
 }
 
+.d-flex-hero {
+  flex-flow: column nowrap;
+  gap: 2rem;
+}
+
 .hero__title {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
@@ -222,7 +232,7 @@ img {
   color: var(--clr-neutral-100);
   text-align: center;
   margin: 0;
-  padding: 2em 0;
+  margin-bottom: 2rem;
 }
 
 .hero__btn {
@@ -250,11 +260,6 @@ img {
 .btn:hover,
 .nav-link:focus-visible .btn {
   transform: scale(1.1);
-}
-
-section,
-footer {
-  padding: 3rem 0;
 }
 
 .d-flex-section-two {
@@ -296,17 +301,30 @@ footer {
 }
 
 /* TBD in media queries for larger screens:
-- decrease container width to 80%
-- uncenter hero section content
-- remove margin-top from d-flex-boxes when they are to the side
-- remove margin-top from .col + .col. Since
-they will be flex-items in larger screens,
-use gap instead.
 - Show primary navigation horizontally and remove menu icon
 - uncenter footer, show sections horizontally
 */
 
 @media screen and (min-width: 700px) {
+  .container {
+    width: 90%;
+  }
+
+  .hero {
+    padding: 7rem 0 10rem;
+  }
+
+  .d-flex-hero {
+    flex-flow: row nowrap;
+    align-items: flex-end;
+  }
+
+  .hero__title,
+  .hero__text,
+  .hero__btn {
+    text-align: unset;
+  }
+
   .d-flex-section-two {
     flex-flow: row nowrap;
   }
@@ -316,7 +334,11 @@ use gap instead.
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+
   .d-flex-section-three {
     flex-flow: row nowrap;
     gap: 7rem;
