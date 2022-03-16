@@ -201,7 +201,8 @@ smaller screens, when items are stacked. */
   color: inherit;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus-visible {
   text-decoration: underline;
 }
 
@@ -248,7 +249,8 @@ smaller screens, when items are stacked. */
   border-radius: 1.5em;
 }
 
-.btn:hover {
+.btn:hover,
+.nav-link:focus-visible .btn {
   transform: scale(1.1);
 }
 
