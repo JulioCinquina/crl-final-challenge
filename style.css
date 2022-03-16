@@ -38,6 +38,7 @@ p:last-child {
 
 img {
   max-width: 100%;
+  max-height: 95vh;
 }
 
 section,
@@ -114,7 +115,19 @@ footer {
   text-align: center;
 }
 
+.margin-0a {
+  margin: 0 auto;
+}
+
+.d-block {
+  display: block;
+}
+
 [class*="d-flex"] {
+  /* This selector matches any elements whose "class" attribute 
+  contains "d-flex". Other rules can then be added to element-specific 
+  classes, such as "d-flex-hero" and  "d-flex-section-two" below. */
+
   display: flex;
 }
 
