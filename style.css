@@ -206,7 +206,6 @@ footer {
   /* When checked, display navigation menu */
   height: auto;
   width: auto;
-  display: unset;
 }
 
 /* === // === */
@@ -216,7 +215,7 @@ footer {
   it is shown when the menu button (invisible checkbox) is toggled. */
   height: 0;
   width: 0;
-  display: none;
+  overflow: hidden;
   flex-basis: 100%;
   text-align: center;
 }
