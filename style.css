@@ -278,7 +278,7 @@ footer {
 }
 
 .box {
-  padding: 3rem;
+  padding: 2rem 3rem;
 }
 
 .section-title {
@@ -341,10 +341,15 @@ footer {
 
   .d-flex-section-three {
     flex-flow: row nowrap;
-    gap: 7rem;
+    gap: 8rem;
+  }
+
+  .section-three__content {
+    flex-basis: 60%;
   }
 
   .d-flex-boxes {
+    flex-basis: 40%;
     flex-flow: column nowrap;
   }
 }
