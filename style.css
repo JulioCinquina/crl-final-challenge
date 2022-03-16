@@ -113,14 +113,6 @@ img {
   display: flex;
 }
 
-/* .col is a column in larger screens,
-when items are side-by-side, and a row in
-smaller screens, when items are stacked. */
-
-.col + .col {
-  margin-top: 2rem;
-}
-
 /* Navigation Bar */
 
 .header {
@@ -265,6 +257,11 @@ footer {
   padding: 3rem 0;
 }
 
+.d-flex-section-two {
+  flex-flow: column nowrap;
+  gap: 3rem;
+}
+
 .d-flex-section-three {
   flex-flow: column nowrap;
   gap: 3rem;
@@ -310,6 +307,10 @@ use gap instead.
 */
 
 @media screen and (min-width: 700px) {
+  .d-flex-section-two {
+    flex-flow: row nowrap;
+  }
+
   .d-flex-boxes {
     flex-flow: row nowrap;
   }
