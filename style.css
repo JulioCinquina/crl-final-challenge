@@ -374,6 +374,10 @@ footer {
     align-items: center;
   }
 
+  .nav-link {
+    text-align: left;
+  }
+
   .hero {
     padding: 7rem 0 10rem;
   }
