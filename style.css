@@ -265,8 +265,12 @@ footer {
   padding: 3rem 0;
 }
 
+.d-flex-section-three {
+  flex-flow: column nowrap;
+  gap: 3rem;
+}
+
 .d-flex-boxes {
-  margin-top: 3rem;
   flex-flow: column nowrap;
   gap: 1rem;
 }
@@ -308,5 +312,16 @@ use gap instead.
 @media screen and (min-width: 700px) {
   .d-flex-boxes {
     flex-flow: row nowrap;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .d-flex-section-three {
+    flex-flow: row nowrap;
+    gap: 7rem;
+  }
+
+  .d-flex-boxes {
+    flex-flow: column nowrap;
   }
 }
