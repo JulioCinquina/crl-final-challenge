@@ -235,7 +235,6 @@ footer {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
-  align-items: center;
 }
 
 /* === Secondary Navigation at the Footer === */
@@ -248,6 +247,7 @@ footer {
   display: block;
   text-decoration: none;
   color: inherit;
+  text-align: center;
 }
 
 .nav-link:hover,
@@ -371,6 +371,7 @@ footer {
   .nav-list--primary {
     flex-flow: row wrap;
     gap: 3rem;
+    align-items: center;
   }
 
   .hero {
