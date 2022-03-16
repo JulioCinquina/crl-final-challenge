@@ -357,6 +357,16 @@ footer {
     width: 90%;
   }
 
+  .toggle-menu,
+  .menu-icon {
+    display: none;
+  }
+  .nav-primary {
+    height: auto;
+    width: auto;
+    flex-basis: unset;
+  }
+
   .hero {
     padding: 7rem 0 10rem;
   }
