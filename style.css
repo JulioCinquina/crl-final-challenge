@@ -263,6 +263,9 @@ footer {
 
 .section-three__boxes {
   margin-top: 3rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
 }
 
 .box {
@@ -298,3 +301,9 @@ use gap instead.
 - Show primary navigation horizontally and remove menu icon
 - uncenter footer, show sections horizontally
 */
+
+@media screen and (min-width: 700px) {
+  .section-three__boxes {
+    flex-flow: row nowrap;
+  }
+}
