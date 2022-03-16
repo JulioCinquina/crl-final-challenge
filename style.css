@@ -109,6 +109,10 @@ img {
   text-align: center;
 }
 
+[class*="d-flex"] {
+  display: flex;
+}
+
 /* .col is a column in larger screens,
 when items are side-by-side, and a row in
 smaller screens, when items are stacked. */
@@ -261,9 +265,8 @@ footer {
   padding: 3rem 0;
 }
 
-.section-three__boxes {
+.d-flex-boxes {
   margin-top: 3rem;
-  display: flex;
   flex-flow: column nowrap;
   gap: 1rem;
 }
@@ -294,7 +297,7 @@ footer {
 /* TBD in media queries for larger screens:
 - decrease container width to 80%
 - uncenter hero section content
-- remove margin-top from section-three__boxes when they are to the side
+- remove margin-top from d-flex-boxes when they are to the side
 - remove margin-top from .col + .col. Since
 they will be flex-items in larger screens,
 use gap instead.
@@ -303,7 +306,7 @@ use gap instead.
 */
 
 @media screen and (min-width: 700px) {
-  .section-three__boxes {
+  .d-flex-boxes {
     flex-flow: row nowrap;
   }
 }
