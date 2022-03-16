@@ -41,12 +41,10 @@ img {
   max-height: 95vh;
 }
 
-section,
-footer {
-  padding: 3rem 0;
-}
+/*  ===========
+    Font Colors 
+    ===========  */
 
-/* === FONT COLORS === */
 .clr-neutral-700 {
   color: var(--clr-neutral-700) !important;
 }
@@ -70,7 +68,9 @@ footer {
   color: var(--clr-accent-400) !important;
 }
 
-/* === FONT SIZES === */
+/*  ==========
+    Font Sizes
+    ==========  */
 
 .fs-regular-plus {
   font-size: 1.125rem;
@@ -92,7 +92,9 @@ footer {
   font-size: 2.25rem;
 }
 
-/* === BACKGROUND COLORS === */
+/*  =================
+    Background Colors
+    =================  */
 .bg-neutral-800 {
   background-color: var(--clr-neutral-800);
 }
@@ -103,7 +105,9 @@ footer {
   background-color: var(--clr-neutral-200);
 }
 
-/* === Reusable === */
+/*  ========
+    Reusable
+    ========  */
 
 .container {
   width: 95%;
@@ -131,7 +135,29 @@ footer {
   display: flex;
 }
 
-/* Navigation Bar */
+/*  ====== 
+    Layout
+    ======  */
+
+section,
+footer {
+  padding: 3rem 0;
+}
+
+.section-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  color: var(--clr-accent-400);
+}
+
+.section-text {
+  font-family: "Montserrat", sans-serif;
+  color: var(--clr-neutral-700);
+}
+
+/*  ================================
+    Navigation Bar (Header & Footer)
+    ================================  */
 
 .header {
   padding: 1rem 0;
@@ -149,6 +175,10 @@ footer {
   align-items: center;
   position: relative;
 }
+
+/*  =============================
+    Navigation Bar: toggle button
+    =============================  */
 
 .toggle-menu {
   /* Invisible checkbox that toggles the menu */
@@ -178,6 +208,8 @@ footer {
   display: unset;
 }
 
+/* === // === */
+
 .nav-primary {
   /* The primary navigation menu is hidden by default on small screens;
   it is shown when the menu button (invisible checkbox) is toggled. */
@@ -200,6 +232,7 @@ footer {
   font-size: 1.125rem;
 }
 
+/* === Secondary Navigation at the Footer === */
 .nav-list--secondary {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
@@ -219,6 +252,10 @@ footer {
 .nav-link:focus-visible {
   text-decoration: underline;
 }
+
+/*  ============
+    Hero Section
+    ============  */
 
 .d-flex-hero {
   flex-flow: column nowrap;
@@ -275,6 +312,10 @@ footer {
   transform: scale(1.1);
 }
 
+/*  ===========
+    Section Two
+    ===========  */
+
 .d-flex-section-two {
   flex-flow: column nowrap;
   gap: 3rem;
@@ -294,16 +335,9 @@ footer {
   padding: 2rem 3rem;
 }
 
-.section-title {
-  font-family: "Oswald", sans-serif;
-  font-weight: bold;
-  color: var(--clr-accent-400);
-}
-
-.section-text {
-  font-family: "Montserrat", sans-serif;
-  color: var(--clr-neutral-700);
-}
+/*  ======
+    Footer
+    ====== */
 
 .footer__section {
   text-align: center;
@@ -312,6 +346,10 @@ footer {
 .footer__section + .footer__section {
   margin-top: 1.25rem;
 }
+
+/*  =============
+    Media Queries
+    =============  */
 
 /* TBD in media queries for larger screens:
 - Show primary navigation horizontally and remove menu icon
