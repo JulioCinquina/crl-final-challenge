@@ -247,6 +247,8 @@ smaller screens, when items are stacked. */
   padding: 0.25em 1.5em;
 
   border-radius: 1.5em;
+
+  transition: transform ease-out 50ms;
 }
 
 .btn:hover,
