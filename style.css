@@ -3,6 +3,8 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Oswald', sans-serif;
 */
 
+/* ============== General Styling & Custom Properties ============== */
+
 :root {
   box-sizing: border-box;
 
@@ -15,8 +17,6 @@ font-family: 'Oswald', sans-serif;
   --clr-neutral-100: #ffffff;
   --clr-accent-400: #a59678;
 }
-
-/* ============== General Styling & Custom Properties ============== */
 
 *,
 *::before,
@@ -279,7 +279,7 @@ footer {
 .hero-title {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
-  /* font-size: 5.625rem; */
+  /* font-size: 5.625rem; is too big */
   font-size: 4.5rem;
   color: var(--clr-neutral-100);
   text-align: center;
