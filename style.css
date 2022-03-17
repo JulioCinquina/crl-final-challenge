@@ -195,7 +195,7 @@ footer {
   height: auto;
   width: auto;
   overflow: visible;
-  /* overflow: visible is required to not hide parts of the button
+  /* overflow: visible is required to not hide parts of the sign up button
   when it scales up on hover */
 }
 
