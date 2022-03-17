@@ -131,6 +131,30 @@ img {
   display: flex;
 }
 
+.btn {
+  display: inline-block;
+
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  color: var(--clr-neutral-100);
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  background-color: var(--clr-accent-400);
+  padding: 0.25em 1.5em;
+
+  border-radius: 1.5em;
+
+  transition: transform ease-out 50ms;
+}
+
+.btn:hover,
+.nav-link:focus-visible .btn {
+  /* Makes buttons bigger on hover/focus-visible */
+  transform: scale(1.1);
+}
+
 /* =============== Styling for all Sections =============== */
 
 section,
@@ -199,7 +223,7 @@ footer {
   when it scales up on hover */
 }
 
-/* =============== Navigation Bar List =============== */
+/* =============== Navigation List =============== */
 
 .nav-primary {
   /* The primary navigation menu is hidden by default on small screens;
@@ -211,6 +235,7 @@ footer {
 }
 
 .nav-list {
+  /* This class is also used in the secondary navigation at the footer */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -225,13 +250,6 @@ footer {
   font-size: 1.125rem;
 }
 
-/* =============== Secondary Navigation (Footer) =============== */
-
-.nav-list--secondary {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-}
-
 .nav-link {
   display: block;
   text-decoration: none;
@@ -242,6 +260,13 @@ footer {
 .nav-link:hover,
 .nav-link:focus-visible {
   text-decoration: underline;
+}
+
+/* =============== Secondary Navigation (Footer) =============== */
+
+.nav-list--secondary {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
 }
 
 /* =============== Hero Section =============== */
@@ -275,29 +300,6 @@ footer {
 
 .hero__btn {
   text-align: center;
-}
-
-.btn {
-  display: inline-block;
-
-  font-family: "Oswald", sans-serif;
-  font-weight: bold;
-  color: var(--clr-neutral-100);
-
-  text-decoration: none;
-  text-transform: uppercase;
-
-  background-color: var(--clr-accent-400);
-  padding: 0.25em 1.5em;
-
-  border-radius: 1.5em;
-
-  transition: transform ease-out 50ms;
-}
-
-.btn:hover,
-.nav-link:focus-visible .btn {
-  transform: scale(1.1);
 }
 
 /* =============== Section Two =============== */
