@@ -124,9 +124,9 @@ img {
 }
 
 [class*="d-flex"] {
-  /* This selector matches any elements whose "class" attribute 
-  contains "d-flex". Other rules can then be added to element-specific 
-  classes, such as "d-flex-hero" and  "d-flex-section-two" below. */
+  /* This selector matches elements with the "d-flex" class (and derivatives).
+  Other rules can then be added to element-specific classes, such as 
+  "d-flex-hero" and  "d-flex-section-two" below. */
 
   display: flex;
 }
@@ -158,8 +158,8 @@ footer {
 
 .header-flex {
   /* This organizes the layout of the header:
-  Logo and menu button in opposite sites of 1st row, 
-  and the navigation menu in the 2nd row (when toggled). */
+  - Logo and menu button in opposite sites of 1st row;
+  - Navigation menu in the 2nd row (when toggled). */
 
   display: flex;
   flex-flow: row wrap;
