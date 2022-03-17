@@ -386,7 +386,7 @@ footer {
     justify-content: space-between;
   }
 
-  .footer__section--about {
+  .footer-section--about {
     flex-basis: 43%;
   }
 }
