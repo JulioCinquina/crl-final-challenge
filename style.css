@@ -276,7 +276,7 @@ footer {
   gap: 2rem;
 }
 
-.hero__title {
+.hero-title {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   /* font-size: 5.625rem; */
@@ -286,20 +286,16 @@ footer {
   margin: 0;
 }
 
-.hero__content {
+.hero-content {
   font-size: 1.5rem;
 }
 
-.hero__text {
+.hero-text {
   font-family: "Montserrat", sans-serif;
   color: var(--clr-neutral-400);
   text-align: center;
   margin: 0;
   margin-bottom: 2rem;
-}
-
-.hero__btn {
-  text-align: center;
 }
 
 /* =============== Section Two =============== */
@@ -370,9 +366,9 @@ footer {
     align-items: flex-end;
   }
 
-  .hero__title,
-  .hero__text,
-  .hero__btn {
+  .hero-title,
+  .hero-text,
+  .hero-btn {
     text-align: unset;
   }
 
