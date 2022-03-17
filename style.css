@@ -42,9 +42,7 @@ img {
   max-height: 95vh;
 }
 
-/*  ===========
-    Font Colors 
-    ===========  */
+/* =============== Font Colors =============== */
 
 .clr-neutral-700 {
   color: var(--clr-neutral-700) !important;
@@ -69,9 +67,7 @@ img {
   color: var(--clr-accent-400) !important;
 }
 
-/*  ==========
-    Font Sizes
-    ==========  */
+/* =============== Font Sizes =============== */
 
 .fs-regular-plus {
   font-size: 1.125rem;
@@ -93,9 +89,8 @@ img {
   font-size: 2.25rem;
 }
 
-/*  =================
-    Background Colors
-    =================  */
+/* =============== Background Colors =============== */
+
 .bg-neutral-800 {
   background-color: var(--clr-neutral-800);
 }
@@ -106,9 +101,7 @@ img {
   background-color: var(--clr-neutral-200);
 }
 
-/*  ========
-    Reusable
-    ========  */
+/* =============== Reusable Classes =============== */
 
 .container {
   width: 95%;
@@ -136,9 +129,7 @@ img {
   display: flex;
 }
 
-/*  ====== 
-    Layout
-    ======  */
+/* =============== Layout Styling =============== */
 
 section,
 footer {
@@ -156,9 +147,7 @@ footer {
   color: var(--clr-neutral-700);
 }
 
-/*  ================================
-    Navigation Bar (Header & Footer)
-    ================================  */
+/* =============== Navigation (Header & Footer) =============== */
 
 .header {
   padding: 1rem 0;
@@ -177,9 +166,7 @@ footer {
   position: relative;
 }
 
-/*  =============================
-    Navigation Bar: toggle button
-    =============================  */
+/* =============== Navigation Bar (Toggle Button) =============== */
 
 .toggle-menu {
   /* Invisible checkbox that toggles the menu */
@@ -211,7 +198,7 @@ footer {
   when it scales up on hover */
 }
 
-/* === // === */
+/* =============== Navigation Bar List =============== */
 
 .nav-primary {
   /* The primary navigation menu is hidden by default on small screens;
@@ -237,7 +224,8 @@ footer {
   font-size: 1.125rem;
 }
 
-/* === Secondary Navigation at the Footer === */
+/* =============== Secondary Navigation (Footer) =============== */
+
 .nav-list--secondary {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
@@ -255,9 +243,7 @@ footer {
   text-decoration: underline;
 }
 
-/*  ============
-    Hero Section
-    ============  */
+/* =============== Hero Section =============== */
 
 .d-flex-hero {
   flex-flow: column nowrap;
@@ -313,9 +299,7 @@ footer {
   transform: scale(1.1);
 }
 
-/*  ===========
-    Section Two
-    ===========  */
+/* =============== Section Two =============== */
 
 .d-flex-section-two {
   flex-flow: column nowrap;
@@ -336,9 +320,7 @@ footer {
   padding: 2rem 3rem;
 }
 
-/*  ======
-    Footer
-    ====== */
+/* =============== Footer =============== */
 
 .d-flex-footer {
   flex-flow: column nowrap;
@@ -346,9 +328,7 @@ footer {
   text-align: center;
 }
 
-/*  =============
-    Media Queries
-    =============  */
+/* =============== Media Queries =============== */
 
 @media screen and (min-width: 700px) {
   .container {
