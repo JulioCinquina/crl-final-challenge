@@ -302,7 +302,13 @@ footer {
 
 .d-flex-section-two {
   flex-flow: column nowrap;
-  gap: 3rem;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.section-two-item {
+  flex-grow: 1;
+  flex-basis: 20ch;
 }
 
 .d-flex-section-three {
@@ -362,7 +368,7 @@ footer {
   }
 
   .d-flex-hero {
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: flex-end;
   }
 
@@ -373,7 +379,7 @@ footer {
   }
 
   .d-flex-section-two {
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
   }
 
   .d-flex-boxes {
