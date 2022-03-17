@@ -126,12 +126,12 @@ img {
 [class*="d-flex"] {
   /* This selector matches elements with the "d-flex" class (and derivatives).
   Other rules can then be added to element-specific classes, such as 
-  "d-flex-hero" and  "d-flex-section-two" below. */
+  "d-flex-hero" and "d-flex-section-two" below. */
 
   display: flex;
 }
 
-/* =============== Layout Styling =============== */
+/* =============== Styling for all Sections =============== */
 
 section,
 footer {
@@ -156,12 +156,11 @@ footer {
   overflow: hidden;
 }
 
-.header-flex {
+.d-flex-header {
   /* This organizes the layout of the header:
   - Logo and menu button in opposite sites of 1st row;
   - Navigation menu in the 2nd row (when toggled). */
 
-  display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
