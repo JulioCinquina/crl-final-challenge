@@ -413,21 +413,15 @@ footer {
   }
 
   .d-flex-section-three {
-    flex-flow: row nowrap;
-    gap: 8rem;
+    flex-flow: row wrap;
+    justify-content: space-between;
   }
 
   .section-three-content {
-    flex-basis: 60%;
+    flex: 1 1 60%;
   }
 
   .d-flex-boxes {
-    flex-basis: 40%;
-    flex-flow: column nowrap;
-  }
-
-  .box {
-    width: unset;
-    flex: 0 1 auto;
+    flex: 1 1 16rem;
   }
 }
