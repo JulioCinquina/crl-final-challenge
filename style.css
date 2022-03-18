@@ -401,10 +401,11 @@ footer {
     gap: 1.3rem;
   }
   .footer-section {
-    flex: 1 1 auto;
+    flex: 1 1 0;
+    padding: 0 1.5em;
   }
   .footer-section--about {
-    flex-basis: 35%;
+    flex-basis: 30%;
   }
 }
 
