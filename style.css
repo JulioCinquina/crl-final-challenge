@@ -383,7 +383,14 @@ footer {
   }
 
   .d-flex-boxes {
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+  }
+
+  .box {
+    width: 30%;
+    flex: 1 1 12rem;
+    /* A width needs to be specified for the three boxes to be side-by-side
+    at the default font-size in the first break-point width of 700px. */
   }
 
   .d-flex-footer {
@@ -414,5 +421,10 @@ footer {
   .d-flex-boxes {
     flex-basis: 40%;
     flex-flow: column nowrap;
+  }
+
+  .box {
+    width: unset;
+    flex: 0 1 auto;
   }
 }
