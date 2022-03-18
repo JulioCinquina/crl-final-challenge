@@ -394,13 +394,16 @@ footer {
   }
 
   .d-flex-footer {
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     text-align: left;
     justify-content: space-between;
+    gap: 1.3rem;
   }
-
+  .footer-section {
+    flex: 1 1 auto;
+  }
   .footer-section--about {
-    flex-basis: 43%;
+    flex-basis: 35%;
   }
 }
 
