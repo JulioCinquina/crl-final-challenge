@@ -333,6 +333,10 @@ footer {
   text-align: center;
 }
 
+.section-title--footer {
+  margin-bottom: 1.5em;
+}
+
 /* =============== Media Queries =============== */
 
 @media screen and (min-width: 700px) {
