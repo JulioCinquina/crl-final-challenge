@@ -230,11 +230,19 @@ footer {
 
 .nav-primary {
   /* The primary navigation menu is hidden by default on small screens;
-  it is shown when the menu button (invisible checkbox) is toggled. */
+  it is shown when the menu button (invisible checkbox) is toggled or 
+  when one of its items have focus. */
   height: 0;
   width: 0;
   overflow: hidden;
   flex-basis: 100%;
+}
+
+.nav-primary:focus-within {
+  /* This shows the primary navigation menu when one of its items have focus */
+  height: auto;
+  width: auto;
+  overflow: visible;
 }
 
 .nav-list {
