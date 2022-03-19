@@ -223,6 +223,8 @@ footer {
   width: auto;
   overflow: visible;
   opacity: 1;
+  position: relative;
+  left: initial;
   /* overflow: visible is required to not hide parts of the sign up button
   when it scales up on hover */
 }
@@ -237,6 +239,8 @@ footer {
   width: 1px;
   overflow: hidden;
   opacity: 0.01;
+  position: absolute;
+  left: -10000px;
   flex-basis: 100%;
 }
 
@@ -246,6 +250,8 @@ footer {
   width: auto;
   overflow: visible;
   opacity: 1;
+  position: relative;
+  left: initial;
 }
 
 .nav-list {
@@ -366,6 +372,8 @@ footer {
     width: auto;
     overflow: visible;
     opacity: 1;
+    position: relative;
+    left: initial;
     flex-basis: unset;
     /* See comment about "overflow: visible" above 
     in ".toggle-menu:checked ~ .nav-primary" rule. */
