@@ -222,6 +222,7 @@ footer {
   height: auto;
   width: auto;
   overflow: visible;
+  opacity: 1;
   /* overflow: visible is required to not hide parts of the sign up button
   when it scales up on hover */
 }
@@ -232,9 +233,10 @@ footer {
   /* The primary navigation menu is hidden by default on small screens;
   it is shown when the menu button (invisible checkbox) is toggled or 
   when one of its items have focus. */
-  height: 0;
-  width: 0;
+  height: 1px;
+  width: 1px;
   overflow: hidden;
+  opacity: 0.01;
   flex-basis: 100%;
 }
 
@@ -243,6 +245,7 @@ footer {
   height: auto;
   width: auto;
   overflow: visible;
+  opacity: 1;
 }
 
 .nav-list {
@@ -362,6 +365,7 @@ footer {
     height: auto;
     width: auto;
     overflow: visible;
+    opacity: 1;
     flex-basis: unset;
     /* See comment about "overflow: visible" above 
     in ".toggle-menu:checked ~ .nav-primary" rule. */
