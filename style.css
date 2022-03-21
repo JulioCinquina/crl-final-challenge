@@ -291,6 +291,10 @@ footer {
 
 /* =============== Hero Section =============== */
 
+.hero {
+  padding-top: 1rem;
+}
+
 .d-flex-hero {
   flex-flow: column nowrap;
   gap: 2rem;
