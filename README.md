@@ -2,6 +2,8 @@
 
 This repository contains my solution to the final challenge of Kevin Powell's [Conquering Responsive Layouts course](https://courses.kevinpowell.co/conquering-responsive-layouts).
 
+Check out the [live version](https://juliocinquina.github.io/crl-final-challenge/).
+
 ## Some Highlights
 
 - The primary navigation bar becomes a toggle menu on small screens;
